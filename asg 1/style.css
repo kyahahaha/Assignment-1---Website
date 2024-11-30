@@ -1,0 +1,162 @@
+/* style for main page */
+.title {
+  color:hotpink;
+  text-align: center;
+  border: white;
+  padding: 10px;
+  margin: 20px auto;
+  text-align: center;
+  background-color: white;
+  opacity: 75%;
+}
+.mainButtons {
+  text-align: center;
+  width: auto;
+  height: auto;
+  border: white;
+  padding: 10px;
+  margin: 10px auto;
+  text-align: center;
+  background-color: white;
+  opacity: 75%;
+}
+
+
+/* style for about */
+.info {
+  color: #3344AA;
+  text-align: center;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  width: 1260px;
+  height: 30px;
+  border: white;
+  padding: 10px;
+  margin: 20px auto;
+  text-align: center;
+  background-color: white;
+  opacity: 75%;
+  z-index: 2;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: solid;
+  border-color: #DDDDFF ;
+  z-index: 2;
+}
+
+.logo {
+opacity: 75%;
+margin-left: 600px;
+margin-right: 500px;
+}
+
+.bandInfo {
+  text-align: center;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  width: 1260px;
+  height: 80px;
+  border: white;
+  padding: 10px;
+  margin: 20px auto;
+  text-align: center;
+  background-color: white;
+  opacity: 75%;
+  z-index: 2;
+}
+
+ 
+ /* style for live page */
+  h3 {
+      text-align: center; 
+      width: 1260px;
+      height: 30px;
+      border: white;
+      padding: 10px;
+      margin: 20px auto;
+      text-align: center;
+      background-color: white;
+      opacity: 75%;
+      z-index: 2;
+  }
+
+  .interactive {
+      text-align: center;
+      color: black;
+      font-family:'Franklin Gothic Medium';
+      width: 200px;
+      height: 30px;
+      border: white;
+      padding: 10px;
+      margin: 20px auto;
+      text-align: center;
+      background-color: white;
+      opacity: 75%;
+      border-radius: 25%;
+      z-index: 2;
+      margin-left: 550px;
+      margin-right: 500px;
+      margin-bottom: auto;
+      margin-top: auto;
+      
+}
+  body {
+      background-image: url(pics/roses.jpg);
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed; 
+      margin: 0;
+      padding: 0;
+  }
+
+  .live {
+    display: block;
+    height: 400px;
+    margin-left: 500px;
+    margin-right: 450px;
+    margin-bottom: auto;
+    margin-top: auto;
+    z-index: 1;
+    position: absolute;
+    bottom: 0px ;
+    align-self: flex-end;
+}
+
+
+/* style for music */
+.music {
+  text-align: center;
+  width: auto;
+  height: auto;
+  border: white;
+  padding: 10px;
+  margin: 20px auto;
+  text-align: center;
+  background-color: white;
+  opacity: 75%;
+}
+.musictype {
+  text-align: center;
+  width: auto;
+  height: auto;
+  border: white;
+  padding: 10px;
+  margin: 20px auto;
+  text-align: center;
+  background-color: white;
+  opacity: 75%;
+}
+
+.discography {
+  text-align: center;
+  width: auto;
+  height: auto;
+  border: white;
+  padding: 10px;
+  margin: 20px auto;
+  text-align: center;
+  background-color: white;
+  opacity: 75%;
+}
