@@ -1,0 +1,235 @@
+/* style for main page */
+.title {
+  color:hotpink;
+  text-align: center;
+  border: white;
+  padding: 10px;
+  margin: 20px auto;
+  text-align: center;
+  background-color: white;
+  opacity: 75%;
+}
+.mainButtons {
+  width: auto;
+  height: auto;
+  border: white;
+  padding: 10px;
+  margin: 5px auto;
+  text-align: center;
+  background-color: white;
+  opacity: 75%;
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+
+}
+
+
+/* style for about */
+.info {
+  color: #3344AA;
+  text-align: center;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  width: auto;
+  height: auto;
+  border: white;
+  padding: 10px;
+  margin: 20px auto;
+  text-align: center;
+  background-color: white;
+  opacity: 75%;
+  z-index: 2;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: solid;
+  border-color: #DDDDFF ;
+  z-index: 2;
+}
+
+.logo {
+opacity: 75%;
+margin-left: 600px;
+margin-right: 500px;
+}
+
+.bandInfo {
+  text-align: center;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  width: auto;
+  height: auto;
+  border: white;
+  padding: 10px;
+  margin: 20px auto;
+  text-align: center;
+  background-color: white;
+  opacity: 75%;
+  z-index: 2;
+}
+
+ 
+ /* style for live page */
+  .livetitle {
+      text-align: center; 
+      width: 1260px;
+      height: 30px;
+      border: white;
+      padding: 10px;
+      margin: 20px auto;
+      text-align: center;
+      background-color: white;
+      opacity: 75%;
+      z-index: 2;
+  }
+
+  body {
+      background-image: url(pics/roses.jpg);
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed; 
+      margin: 0;
+      padding: 0;
+  }
+
+  .live {
+    display: block;
+    height: 400px;
+    margin-left: 500px;
+    margin-right: 450px;
+    margin-bottom: auto;
+    margin-top: auto;
+    z-index: 1;
+    position: absolute;
+    bottom: 0px ;
+    align-self: flex-end;
+}
+
+
+/* style for music */
+.music {
+  text-align: center;
+  width: auto;
+  height: auto;
+  border: white;
+  padding: 10px;
+  margin: 20px auto;
+  text-align: center;
+  background-color: white;
+  opacity: 75%;
+}
+.musictype {
+  text-align: center;
+  width: auto;
+  height: auto;
+  border: white;
+  padding: 10px;
+  margin: 20px auto;
+  text-align: center;
+  background-color: white;
+  opacity: 75%;
+}
+
+.discography {
+  text-align: center;
+  width: auto;
+  height: auto;
+  border: white;
+  padding: 10px;
+  margin: 20px auto;
+  text-align: center;
+  background-color: white;
+  opacity: 75%;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  color: #3344AA;
+  text-decoration: underline;
+}
+
+.tooltip .tooltip-text {
+  visibility: hidden;
+  width: 200px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  border-radius: 5px;
+  padding: 10px;
+  position: absolute;
+  bottom: -125%; 
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  transition: opacity 0.3s;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltip-text {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* style for purchase */
+.container {
+  display: flex;
+  justify-content: a;
+  align-items: left;
+  height: 100px;
+  background-image: url('pics/roses.jpg');
+  background-size: cover;
+  background-position: left;
+  background-attachment: fixed; 
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: black;
+  font-family:'Franklin Gothic Medium';
+  width: 200px;
+  height: 30px;
+  border: white;
+  padding: 10px;
+  margin: 20px auto;
+  text-align: center;
+  background-color: white;
+  opacity: 75%;
+  border-radius: 25%;
+  z-index: 2;
+  margin-left: 550px;
+  margin-right: 500px;
+  margin-bottom: auto;
+  margin-top: auto;
+  justify-content: center;
+}
+
+.confirm {
+  text-align: center;
+  color: black;
+  font-family:'Franklin Gothic Medium';
+  width: 200px;
+  height: 30px;
+  border: white;
+  padding: 10px;
+  margin: 20px auto;
+  text-align: center;
+  background-color: white;
+  opacity: 75%;
+  border-radius: 25%;
+  z-index: 2;
+  margin-left: 550px;
+  margin-right: 500px;
+  margin-bottom: auto;
+  margin-top: auto;
+  justify-content: center;
+}
+
+.purchaseimg {
+  display: flex;
+  justify-content: space-evenly; 
+  align-items: baseline;      
+  height: 10px;           
+}
